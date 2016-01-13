@@ -31,7 +31,7 @@ def cmd_nothing(number):
 def main():
     root = tk.Tk()
 
-    # Assing functions to dictionary
+    # Assign functions to dictionary
     commands = {'button': cmd_button,
                 'nothing': cmd_nothing}
 
