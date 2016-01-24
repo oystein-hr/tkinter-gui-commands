@@ -5,6 +5,7 @@ import sys
 
 class GUI(object):
     def __init__(self, master, cmd):
+        object.__init__(self)
         self.master = master
         self.cmd = cmd
 
