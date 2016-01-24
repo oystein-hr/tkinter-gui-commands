@@ -5,10 +5,14 @@ encountered was when trying to assign commands to the various `events` and
 `widgets`. I would have to make a subclass of the GUI, and add the
  functions/methods, or so I thought.
 
-## Solution
+## Solution using dictionary
 It is possible to put the functions as value in a `dictionary`, and pass it to the GUI
 class as an argument. This way you can have the functional code seperate from the
 visual/GUI code. In `example.py` you can see how it can be done.
+
+## Solution using class
+It is also possible to use a `class` as a container of the functions. This might actually
+be better as it makes it easier to read. Check it out in `class_example.py`.
 
 ## Notes
 Take note that when putting the function into the `dictionary`, I do not add the
